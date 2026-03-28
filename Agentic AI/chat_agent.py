@@ -1,5 +1,5 @@
 from groq import Groq
-API_KEY = "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"
+API_KEY = ""
 client = Groq(api_key=API_KEY)
 
 bank_database:list[dict] = [
